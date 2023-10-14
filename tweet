@@ -1,9 +1,0 @@
-frase = input("Digite seu Tweet:")
-
-nmr_caracter = len(frase)
-
-if nmr_caracter <= 140:
-    print('TWEET')   
-elif nmr_caracter > 140:
-    print('MUTE')
- 
